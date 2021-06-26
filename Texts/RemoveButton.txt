@@ -1,0 +1,1 @@
+created remove-to-cart button in home Component and implement removeToCartHandler function on it.

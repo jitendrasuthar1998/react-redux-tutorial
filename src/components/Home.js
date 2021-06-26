@@ -2,11 +2,14 @@ import React from 'react';
 
 function Home(props)
 {
-  console.warn("props of Home component", props);
+  console.warn("props of Home component", props.data);
   return (
     <div>
       <h1>Home Component</h1>
       <div className="add-to-cart">
+        <span className="cart-count">
+          {props.data.length}
+        </span>
         <img src="https://img.favpng.com/12/18/15/shopping-cart-icon-png-favpng-e5DiMUYLNYaTjdsibphFUCAxC.jpg" alt="cart" />
       </div>
       <div className="cart-wrapper">

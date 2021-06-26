@@ -1,0 +1,6 @@
+Add Data in Cart
+
+Get 1 item in Cart
+Make some style for cart items
+Push multiple item in cart
+Show multiple count in cart

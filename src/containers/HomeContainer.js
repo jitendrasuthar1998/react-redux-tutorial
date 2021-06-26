@@ -8,7 +8,7 @@ const mapDispatchToProps = dispatch => ({
 })
 
 const mapStateToProps = state => ({
-  cartData: state
+  data: state.cartItems
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home)

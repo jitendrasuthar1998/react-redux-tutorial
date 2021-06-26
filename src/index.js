@@ -10,7 +10,7 @@ import rootReducer from './services/reducers/index'
 
 const store = createStore(rootReducer);
 
-console.warn("Store data", store);
+//console.warn("Store data", store);
 //
 ReactDOM.render(
   <Provider store={store}>

@@ -1,0 +1,6 @@
+Pass Data in Header Component
+
+Make header Component
+Make header container
+Check Data flow
+Show cart count in header Component

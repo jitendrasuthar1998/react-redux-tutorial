@@ -1,0 +1,4 @@
+connect redux with react
+import react-redux, action and component
+use mapDispatchToProps
+use mapStateToProps

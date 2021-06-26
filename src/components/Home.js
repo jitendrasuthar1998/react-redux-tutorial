@@ -1,7 +1,8 @@
 import React from 'react';
 
-function Home()
+function Home(props)
 {
+  console.warn("props of Home component", props);
   return (
     <div>
       <h1>Home Component</h1>
@@ -22,7 +23,9 @@ function Home()
           </span>
         </div>
         <div className="btn-wrapper item">
-          <button>Add To Cart</button>
+          <button onClick={() =>
+            props.addToCartHandler({ price: '1000', name: 'IPhone 11' })
+          }>Add To Cart</button>
         </div>
       </div>
     </div>

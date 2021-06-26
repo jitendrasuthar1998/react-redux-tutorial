@@ -1,0 +1,12 @@
+Complete Redux Flow
+
+Make Redux wrapper in index file
+What is Provider
+Make Store
+Check data flow in console
+Call action on button click
+
+Provider wrapps whole application.
+In this case, provider will wrap App.js file component in index.js
+
+Provider helps to flow redux data in whole application
